@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.aplicacionesmoviles.licenciadeconducirberazategui.Main2Activity"
+    android:background="@drawable/images99">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:text="nota necesaria para aprobar= 8" />
+
+    <RelativeLayout
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Score"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="0.04"
+        android:padding="8dp"
+        android:text="Which thing is alive?"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/choice3"
+        android:layout_width="254dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="24dp"
+        android:background="#0091EA"
+        android:padding="8dp"
+        android:text="rock"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="250dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="24dp"
+        android:background="#0091EA"
+        android:padding="8dp"
+        android:text="door"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/choice1"
+        android:layout_width="251dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="24dp"
+        android:background="#0091EA"
+        android:padding="8dp"
+        android:text="bird"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="251dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="24dp"
+        android:background="#B71C1C"
+        android:onClick="iralinicio"
+        android:padding="8dp"
+        android:text="Salir"
+        android:textColor="#fff" />
+
+</LinearLayout>
